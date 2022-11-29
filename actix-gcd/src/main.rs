@@ -2,9 +2,9 @@ use actix_web::{web, App, HttpResponse, HttpServer};
 
 #[actix_web::main]
 async fn main() {
-    let server = HttpServer::new(|| {
+    let server = HttpServer::new(|| { /* closure expression, like a lambda */
         App::new()
-            .route("/", web::get().to(get_index))
+            .route("/", web::get().to(get_index)) /* backend routes */
             .route("/gcd", web::post().to(post_gcd))
     });
 

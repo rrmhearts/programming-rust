@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+div {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: Cambria;
+}
+
+p {
+    font-size: 15em;
+}
+
+button {
+    width: 300px;
+    height: 300px;
+    font-size: 15em;
+    font-family: Cambria;
+    color: white;
+    text-align: center;
+    background-color: #155f3e;
+    border-width: 8px;
+}
