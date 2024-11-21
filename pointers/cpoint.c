@@ -28,3 +28,9 @@ int main() {
 	printf("%d\n", *r);
 	return 0;
 }
+// Output::
+// Hello world!
+// w
+// Hello World!
+// 0x7ffedfbf88cc
+// 20
